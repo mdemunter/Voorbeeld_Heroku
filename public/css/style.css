@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    font-size: 1.5rem;    
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+nav a:hover {
+    background-color: #FF4500;
+    color: white;
+}
+
+a {
+    text-decoration: none; 
+    color: red;
+    background-color: black;
+    color: white;
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 7px 22px;
+}
+**/
+.nameTitle {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: ;
+    text-align: left;
+    font-family: FrizQuat;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-align: center;
+    padding-top: 0rem;
+}
+
+.infoTekst {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 22px;
+}
+
+.boldTekst {
+    font-weight: 600;
+}
+
+.details {
+    font-size: 10px;
+}
+
+p {
+  margin-left: 1rem;
+    line-height: 4px;
+}
+
+h3.title {
+    font-size: 15px;
+    text-align: center;
+    font-family: FrizQuat;
+}
+
+img {
+}
+
+p.year {
+    font-size: 10px;
+    text-align: center;
+}
+
+p.artist {
+    font-size: 15px;
+    text-align: center;
+}
+
+* { box-sizing: border-box; }
+
+/* ---- button ---- */
+
+.button {
+    display: inline-block;
+    padding: 10px 18px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    background: #EEE;
+    border: none;
+    border-radius: 7px;
+background-image: -webkit-linear-gradient(hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2));
+background-image: -o-linear-gradient(hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2));
+background-image: linear-gradient(hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2));
+    color: #222;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-shadow: 0 1px white;
+    cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8CF;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+/* ---- isotope ---- */
+
+.grid {
+  border: 4px solid #333;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+img {
+  height: 20rem;
+}

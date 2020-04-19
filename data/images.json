@@ -1,0 +1,113 @@
+{
+  "images": [{
+      
+    "title":"ASTROLABE",
+    "artist": "Muhammad Ibn Ahmad Al Battuti",
+    "year": "1726-1727",
+    "place": "North Africa",
+    "img": "/images/astrolabe.png",
+    "classes": "artifacts",
+    "alt": "ASTROLABE"
+    },
+             
+    {
+    "title":"CHILDREN WRESTLING",
+    "artist": "Paul Gauguin",
+    "year": "1888",
+    "place": "France",
+    "img": "/images/childrenWrestling.png",
+    "classes": "paintings",
+    "alt": "CHILDREN WRESTLING"
+    },
+             
+    {
+    "title":"COMPOSITION",
+    "artist": "Piet Mondrian",
+    "year": "1922",
+    "place": "France",
+    "img": "/images/composition.png",
+    "classes": "oil",
+    "alt": "COMPOSITION"
+    },
+             
+    {
+    "title":"HILYE",
+    "artist": "Kazasker Mustafa Izzet",
+    "year": "1894-95",
+    "place": "Turkey, Istanbul",
+    "img": "/images/hilye.png",
+    "classes": "paintings",
+    "category": "highlight",
+    "alt": "HILYE"
+    },
+             
+    {
+    "title":"TREATISE ON OPTICS",
+    "artist": "Ibn Al Haytham",
+    "year": "965-1039",
+    "place": "Egypt",
+    "img": "/images/kitabAlManazir.png",
+    "classes": "artifacts",
+    "alt": "TREATISE ON OPTICS"
+    },
+             
+    {
+    "title":"LA BELLE FERRONNIERE",
+    "artist": "Leonardo da Vinci",
+    "year": "1495-1499",
+    "place": "Italy, Milan",
+    "img": "/images/laBelleFerronniere.png",
+    "classes": "paintings",
+    "alt": "LA BELLE FERRONNIERE"
+    },
+             
+    {
+    "title":"MONUMENTAL STATUE WITH TWO HEADS",
+    "artist": "Unknown",
+    "year": "6,500 BCE",
+    "place": " Ain Ghazal, Jordan",
+    "img": "/images/monumentalStatueWithTwoHeads.png",
+    "classes": "artifacts",
+    "alt": "MONUMENTAL STATUE WITH TWO HEADS"
+    },
+             
+    {
+    "title":"NAUTICAL TREATISE",
+    "artist": "Ahmad Ibn Majid",
+    "year": "1576",
+    "place": "Unknown",
+    "img": "/images/childrenWrestling.png",
+    "classes": "artifacts",
+    "alt": "NAUTICAL TREATISE"
+    },
+             
+    {
+    "title":"RAMSES, PHARAOH OF EGYPT",
+    "artist": "Unknown",
+    "year": "1279-1213 BCE",
+    "place": "Egypt",
+    "img": "/images/ramses.png",
+    "classes": "artifacts",
+    "alt": "RAMSES, PHARAOH OF EGYPT"
+    },
+             
+    {
+    "title":"SALT CELLAR",
+    "artist": "Unknown",
+    "year": "1600",
+    "place": "Nigeria",
+    "img": "/images/saltCellar.png",
+    "classes": "artifacts",
+    "alt": "SALT CELLAR"
+    },        
+
+    {
+    "title":"YOUNG EMIR STUDYING",
+    "artist": "Osman Hamdy Bey",
+    "year": "1878",
+    "place": " Istanbul, Turkey",
+    "img": "/images/youngEmirStudying.png",
+    "classes": "oil",
+    "alt": "YOUNG EMIR STUDYING"
+    }]
+}

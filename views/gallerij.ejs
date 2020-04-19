@@ -1,0 +1,35 @@
+<%- include('header'); %>
+
+<p><input type="text" class="quicksearch" placeholder="Search" /></p>
+
+<h1 class="nameTitle">Onze gallerij.</h1>
+<br>
+<br>
+<p>Geniet van (een aantal) werken in onze gallerij!</p>
+<p>... of kom langs in Hét Museum voor de hele reeks.</p>
+
+<div class="button-group filters-button-group">
+  <button class="button is-checked" data-filter="*">toon alles</button>
+  <button class="button" data-filter=".artifacts">artifact</button>
+  <button class="button" data-filter=".paintings">schilderij</button>
+  <button class="button" data-filter=".oil">olie</button>
+</div>
+
+
+
+
+<div class="grid">
+  <% for(let i=0; i<images.length; i++) { %>
+  <div class="grid-item <%=images[i].classes%>">
+  <h3 class="title"><%=images[i].title%></h3>
+  <img src="<%=images[i].img%>" alt="<%=images[i].alt%>"></img>
+  <p class="artist"><%=images[i].artist%></p>
+  <p class="year"><%=images[i].year%></p>
+  <p class="style"><%=images[i].style%></p>
+  <p class="dimensions"><%=images[i].dimensions%></p>
+</div>
+  <% } %>
+</div>
+
+
+<%- include('footer'); %>
